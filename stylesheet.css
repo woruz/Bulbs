@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#bulb{
+    height: 200px;
+    width: 150px;
+    
+}
+
+ img{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50% ,-50%);
+}
+
+button{
+    width: 100px;
+    height: 50px;
+    border-radius: 5px;
+    box-shadow: inset;
+}
+
+ .on{
+    position: absolute;
+   top: 70%;
+   left: 40%;
+   transform: translate(-50% ,-50%);
+}
+
+.off{
+    position: absolute;
+   top: 70%;
+   left: 60%;
+   transform: translate(-50% ,-50%);
+}
+
